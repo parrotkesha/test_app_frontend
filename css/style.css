@@ -1,0 +1,345 @@
+@font-face {
+    font-family: "F37_Ginger";
+    src: url("fonts/F37 Ginger Regular.ttf");
+}
+
+body {
+    font-family: "F37_Ginger";
+}
+
+body .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+body .row.row-fix {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+}
+
+.banner .top-content {
+    background: linear-gradient(313.81deg, rgb(255 209 148 / 30%) 5.66%, rgb(112 225 245 / 30%) 94.35%);
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+h2, h3 {
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    font-weight: bold;
+    opacity: 0.3;
+    font-size: 35px;
+    line-height: 46px;
+    padding: 60px 0px 20px 0px;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h3 {
+    opacity: 1;
+    color: #000000;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+h3 span, h2 span {
+    display: block;
+}
+
+.banner .bottom-content {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 75px 0 30px 0;
+}
+
+.value-content {
+    font-weight: 700;
+    font-size: 14px;
+    color: #60615D;
+    font-style: normal;
+    padding: 23px 0px;
+    line-height: 30px;
+    margin-left: -40px;
+}
+
+.value-content .value-block-icon {
+    margin-right: 20px;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.value-content .value-block-text {
+    width: 180px;
+    display: inline-block;
+    text-align: left;
+}
+
+.value-content .value-block-icon.package {
+    margin-left: -4px;
+    margin-right: 24px;
+}
+
+.image-content {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    bottom: -44px;
+}
+
+.bottom-content .save-label {
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 40px;
+    color: #D1030A;
+}
+
+.bottom-content .save-label.small{ 
+    font-size: 26px;
+    line-height: 25px;
+    padding-top: 16px;
+    font-weight: 700;
+}
+
+.bottom-content .product-names {
+    padding-top: 10px;
+    padding-bottom: 26px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.bottom-content .product-names .product-name {
+    color: #495057;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    width: 240px;
+    display: inline-block;
+    text-align: left;
+}
+
+.bottom-content .product-names .product-check {
+    margin-right: 12px;
+}
+
+.bottom-content .product-names > div {
+    margin-top: 40px;
+}
+
+.bottom-content .price {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    margin-top: 15px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.bottom-content .price .price-value {
+    position: relative;
+}
+
+.bottom-content .price.total {
+    color: #7A7A7A;
+    margin-bottom: 0;
+}
+
+.bottom-content .price .strikethrough {
+    text-decoration: line-through;
+}
+
+.bottom-content .price .red {
+    color: #DF242B;
+    font-weight: bold;
+}
+
+.bottom-content .price .per-month {
+    font-size: 15px;
+    line-height: 15px;
+    color: #7A7A7A;
+    position: absolute;
+    font-weight: normal;
+    bottom: -15px;
+    right: 4px;
+}
+
+.save-percent {
+    background: rgb(141 145 150 / 10%);
+    padding: 15px 0;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #7A7A7A;
+}
+
+.btn.btn-primary {
+    background: #3EB291;
+    border-color: #3EB291;
+    border-radius: 100px;
+    padding: 28px 48px;
+    width: 100%;
+    max-width: 300px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 15px;
+    letter-spacing: 2px;
+    margin: 20px 0px;
+}
+
+.btn.btn-primary .arrow-btn {
+    margin-right: 10px;
+}
+
+.btn.btn-primary:hover {
+    background: #000000;
+    border-color: #000000;
+}
+
+.under-btn-text { 
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ACB5BD;
+    display: block;
+}
+
+.image-content .product-plus {
+    background-color: #fff;
+    border-radius: 100%;
+    padding: 17px;
+    box-shadow: 0px 0px 30px 10px rgb(36 36 72 / 10%);
+    position: absolute;
+    width: 50px;
+    height: 51px;
+    top: 64px;
+}
+
+.image-content .product-plus.left {
+    left: 37px;
+ }
+
+.image-content .product-plus.right {
+    right: 2px;
+}
+
+@media (max-width: 1440px) {
+    .image-content .product-plus.left {
+        left: calc(8vw - 78px);
+     }
+    
+    .image-content .product-plus.right {
+        right: calc(8vw - 112px);
+    }
+}
+
+@media (min-width: 576px) {
+    h3 span, h2 span {
+        display: initial;
+    }
+    .banner .top-content {
+        height: 320px;
+    }
+    .value-content {
+        margin-left: -185px;
+    }
+}
+
+@media (min-width: 992px) {
+    .content-wrapper {
+        background-color: #E5E5E5;
+        display: flex;
+        justify-content: center;
+        min-height: 100vh;
+        align-items: center;
+        height: initial;
+    }
+    .banner {
+        max-width: 1440px;
+    }
+    .banner .top-content {
+        height: 370px;
+    }
+    h2 {
+        font-size: 60px;
+    }
+    h3 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .value-content .value-block-icon {
+        margin-right: 10px;
+    }
+    .value-content {
+        margin-left: initial;
+        padding-bottom: 0px;
+    }
+    .image-content {
+        position: relative;
+    }
+    .image-content .text-center img{
+        margin-left: 20px;
+    }
+    
+    .bottom-content .product-names {
+        padding-bottom: 60px;
+        padding-top: 5px;
+    }
+
+    .bottom-content .product-names .product-name {
+        text-align: inherit;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .bottom-content .product-names > div {
+        margin-top: 23px;
+    }
+    .bottom-content .product-names .justify-content-lg-end > div {
+        margin-right: -5px;
+    }
+    .bottom-content .product-names .justify-content-lg-end > div {
+        margin-right: -5px;
+    }
+    .bottom-content .product-names .justify-content-lg-center > div {
+        margin-left: 40px;
+    }
+    .bottom-content .product-names .justify-content-lg-start > div {
+        margin-left: 37px;
+    }
+    .bottom-content .product-names .product-price {
+        font-size: 15px;
+        line-height: 20px;
+        color: #7A7A7A;
+    }
+    .bottom-content .save-label {
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .bottom-content .arrow {
+        margin: 36px 30px 0 50px;
+    }
+    .btn.btn-primary {
+        max-width: 391px;
+    }
+    .btn.btn-primary .arrow-btn {
+        margin-right: 23px;
+    }
+    .under-btn-text {
+        margin-left: 57px;
+    }
+}
